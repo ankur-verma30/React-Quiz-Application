@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.flip-on-hover {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-on-hover:hover {
+    transform: rotateY(180deg);
+  }
