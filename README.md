@@ -1,15 +1,95 @@
-# React + Vite
+## 🧠 Fill-in-the-Blanks Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, interactive quiz platform where users complete sentences by selecting correct options. Includes scoring, analytics with detailed answers, and celebratory animations using confetti when a quiz is completed.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📸 Demo
 
-## Expanding the ESLint configuration
+![Quiz Screenshot](link_to_screenshot_or_gif)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+### ✨ Features
+
+- 🧩 **Fill-in-the-blank sentence format**
+- 🔢 **Live timer and question tracking**
+- 🎯 **Scoring system with detailed result breakdown**
+- 🎉 **Confetti animation on result screen**
+- 💡 **Answer analytics with correctness indicators**
+- 📱 **Fully responsive and mobile-friendly UI**
+- ⚡ **Fast and lightweight using React + Tailwind CSS**
+
+---
+
+### 🛠️ Tech Stack
+
+- **React.js** – Frontend framework
+- **React Router** – Navigation
+- **Tailwind CSS** – Styling and responsive design
+- **Canvas Confetti** – Animation for results
+
+---
+
+### 🚀 Getting Started
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/fill-in-the-blanks-quiz.git
+cd fill-in-the-blanks-quiz
+```
+
+#### 2. Install Dependencies
+```bash
+npm install
+```
+
+#### 3. Run the Development Server
+```bash
+npm start
+```
+
+The app will be running at `http://localhost:3000`.
+
+---
+
+### 📁 Folder Structure
+
+```bash
+src/
+├── components/
+│   ├── Quiz.jsx
+│   ├── Result.jsx
+│   ├── Score.jsx
+├── App.jsx
+├── index.js
+├── data/             # JSON or quiz data
+└── styles/           # Tailwind and global styles
+```
+
+---
+
+### 📦 Dependencies
+
+- `react-router-dom`
+- `canvas-confetti`
+- `tailwindcss` & `postcss`
+- `classnames` (optional)
+
+---
+
+### 🎨 Customization
+
+- To modify quiz content, edit the JSON or state that contains the questions and answers.
+- Tailwind classes make it easy to tweak styling quickly.
+
+---
+
+### 🙌 Acknowledgements
+
+- [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti) for the firework animation.
+- [Tailwind CSS](https://tailwindcss.com/) for the beautiful utility-first styling.
+
+---
 
 
